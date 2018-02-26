@@ -1,8 +1,7 @@
-# JrubyAutolink
+# JRubyAutolink
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jruby_autolink`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+JRubyAutolink is a wrapper around the autolink-java library. It provides a rinku/rails_autolink compatible
+autolinking library for JRuby users.
 
 ## Installation
 
@@ -22,7 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "jruby_autolink"
+puts JRubyAutolink.auto_link("Welcome to my new blog at http://www.myblog.com/.")
+```
 
 ## Development
 
